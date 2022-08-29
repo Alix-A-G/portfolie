@@ -1,0 +1,33 @@
+body {
+ background-image: url(Billeder/green-bg.jpg);
+ background-repeat: no-repeat, repeat;
+ background-size: cover
+}
+h1 {
+  color: #4CAF50;
+    text-align: center;
+      font-size: 350%;
+    
+}
+p {
+  color: darkred;
+}
+
+
+
+img {
+    max-height: 150px;
+    max-width: 200px;
+    width: 120px;
+    height: 120px;
+    
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
