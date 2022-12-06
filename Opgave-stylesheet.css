@@ -1,0 +1,20 @@
+body{
+ background-image: url(Billeder/green-bg.jpg);
+ background-repeat: no-repeat, repeat;
+ background-size: cover
+}
+
+h1 {
+    text-align: center; 
+    background-color: white; 
+    
+}
+
+h3{
+   background-color: white;
+
+}
+
+ol{
+    background-color: white;
+}
