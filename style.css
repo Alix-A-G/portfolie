@@ -1,5 +1,5 @@
 body {
- background-image: url(Billeder/green-bg.jpg);
+ background-image: url(Billeder/Baggrund-maybe-gr%C3%B8n.png);
  background-repeat: no-repeat, repeat;
  background-size: cover
 }
@@ -9,6 +9,12 @@ h1 {
       font-size: 350%;
     
 }
+
+h2{
+  color: aliceblue;
+
+}
+
 p {
   color: darkred;
 }
@@ -30,4 +36,15 @@ div.sticky {
   padding: 5px;
   background-color: #cae8ca;
   border: 2px solid #4CAF50;
+  
+}
+
+li{
+  color: white;
+}
+
+code{
+  color: darkred;
+  background-color: antiquewhite;
+
 }

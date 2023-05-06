@@ -2,19 +2,33 @@ body{
  background-image: url(Billeder/green-bg.jpg);
  background-repeat: no-repeat, repeat;
  background-size: cover
+ 
 }
 
 h1 {
     text-align: center; 
     background-color: white; 
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h3{
    background-color: white;
-
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 ol{
     background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
 }

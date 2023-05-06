@@ -1,12 +1,44 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="sidenav">
+        <a href="index.html"> Hovedside </a>
+        <a href="Astro-pi.html"> AstroPi </a>
+        <a href="IT-sikkerhed.html">IT sikkerhed</a>
+     <a href="Quiz-database.html"> Database - projekt - quiz</a>
+  </div>
+    
+    <style>
+    .sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: ivory;
+  overflow-x: hidden;
+  }
+        .sidenav a {
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  }
+        .content {
+  margin-left: 200px;
+  padding-left: 20px;
+  }
+  
+  
+    </style>
+    
+    <div class="content">
         
     <h1> Heading</h1>
 
@@ -27,8 +59,38 @@
 
 
     <img src="Billeder/download.jpg" alt="blade ig" width="5%">
-    
+    <br>
     
 
+    <h1>Template til portfolie</h1>
+<p>Jeres projekter skal dokumenteres i en portfolie. Dette gøres ofte med,
+  <ul>
+    <li>Kort introduktion til projektet.</li>
+    <li>Teoretiske overvejelser.</li>
+    <li>Eksempler på hvordan de teoretiske overvejelser er anvendt i projektet.</li>
+    <li>Kodeeksempler som I beskriver grundigt.</li>
+  </ul>
+
+<a href="webteknologier.html"> Tilbage til hovedsiden </a>
+
+
+<h2>eksempel på dokumentation af kode</h2>
+Nedenstående er en den simpleste kode til en hjemmeside
+<pre>
+  <code >
+  &lt;!DOCTYPE html&gt;
+  &lt;html&gt;
+  &lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  Hello world.
+  &lt;/body&gt;
+  &lt;/html&gt;
+  </code>
+</pre>
+
+Imellem header tags, &lt;head&gt; &lt;/head&gt;, placeres metadata som browseren skal bruge for at vise siden rigtigt. Her bruges &lt;meta charset="UTF-8"&gt; så browseren kan skrive æåø rigtigt.
+    </div>
 </body>
 </html>
